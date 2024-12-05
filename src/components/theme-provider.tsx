@@ -1,5 +1,4 @@
 import { createContext, useContext, useEffect, useState } from "react"
-import { setTheme as setTauriTheme } from "@tauri-apps/api/app"
 import { invoke } from "@tauri-apps/api/core"
 import { listen } from "@tauri-apps/api/event"
 import { emit } from "@tauri-apps/api/event"
@@ -25,7 +24,7 @@ const ThemeProviderContext = createContext<ThemeProviderState>(initialState)
 
 export function ThemeProvider({
     children,
-    defaultTheme = "auto" as Theme,
+    defaultTheme = "auto",
     ...props
 }: ThemeProviderProps) {
     const [theme, setTheme] = useState<Theme>(defaultTheme)

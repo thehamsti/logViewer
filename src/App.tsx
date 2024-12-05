@@ -4,7 +4,7 @@ import { Welcome } from './pages/Welcome';
 import { Viewer } from './pages/Viewer';
 import { listen } from '@tauri-apps/api/event';
 import { useEffect } from 'react';
-import { ThemeProvider, useTheme, Theme } from './components/theme-provider';
+import { ThemeProvider, useTheme } from './components/theme-provider';
 import './App.css';
 import { handleFileOpen, openViewerWindow } from './utils/fileHandling';
 
@@ -90,7 +90,7 @@ function AppRoutes() {
 function App() {
     return (
         <>
-            <ThemeProvider defaultTheme="_">
+            <ThemeProvider defaultTheme="auto">
                 <ErrorBoundary>
                     <BrowserRouter>
                         <AppRoutes />

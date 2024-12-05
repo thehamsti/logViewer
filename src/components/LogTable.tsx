@@ -23,7 +23,6 @@ import {
     IconColumns,
     IconSortAscending,
     IconSortDescending,
-    IconLetterCase,
 } from "@tabler/icons-react";
 
 interface LogTableProps {
@@ -59,7 +58,6 @@ export function LogTable(
         new Array(headers.length).fill(true),
     );
     const [activeSearchTerm, setActiveSearchTerm] = useState<string>("");
-    const [caseSensitive, setCaseSensitive] = useState(false);
 
     useEffect(() => {
         setVisibleColumns(new Array(headers.length).fill(true));
@@ -209,14 +207,12 @@ export function LogTable(
         .filter((row) => {
             if (!activeSearchTerm) return true;
             try {
-                const regex = new RegExp(activeSearchTerm, caseSensitive ? '' : 'i');
+                const regex = new RegExp(activeSearchTerm, 'i');
                 return row.some(cell => regex.test(cell));
             } catch (e) {
                 // If regex is invalid, fall back to normal string search
                 return row.some(cell =>
-                    caseSensitive
-                        ? cell.includes(activeSearchTerm)
-                        : cell.toLowerCase().includes(activeSearchTerm.toLowerCase())
+                    cell.toLowerCase().includes(activeSearchTerm.toLowerCase())
                 );
             }
         })
@@ -336,7 +332,7 @@ export function LogTable(
                                             >
                                                 {activeSearchTerm
                                                     ? (
-                                                        highlightSearchTerm(cell, activeSearchTerm, caseSensitive)
+                                                        highlightSearchTerm(cell, activeSearchTerm)
                                                     )
                                                     : cell}
                                             </TableCell>
@@ -367,8 +363,7 @@ export function LogTable(
                                                                         ? (
                                                                             highlightSearchTerm(
                                                                                 row[index],
-                                                                                activeSearchTerm,
-                                                                                caseSensitive,
+                                                                                activeSearchTerm
                                                                             )
                                                                         )
                                                                         : (
@@ -392,17 +387,17 @@ export function LogTable(
         </>
     );
 }
-function highlightSearchTerm(text: string, searchTerm: string, caseSensitive: boolean) {
+function highlightSearchTerm(text: string, searchTerm: string) {
     if (!searchTerm) return text;
 
     try {
-        const regex = new RegExp(`(${searchTerm})`, caseSensitive ? 'g' : 'gi');
+        const regex = new RegExp(`(${searchTerm})`, 'gi');
         const parts = text.split(regex);
         return (
             <>
                 {parts.map((part, i) => {
                     try {
-                        if (part.match(new RegExp(searchTerm, caseSensitive ? '' : 'i'))) {
+                        if (part.match(new RegExp(searchTerm, 'i'))) {
                             return (
                                 <span
                                     key={i}
@@ -414,7 +409,7 @@ function highlightSearchTerm(text: string, searchTerm: string, caseSensitive: bo
                         }
                     } catch (e) {
                         // If regex is invalid, fall back to exact match
-                        if (caseSensitive ? part === searchTerm : part.toLowerCase() === searchTerm.toLowerCase()) {
+                        if (part.toLowerCase() === searchTerm.toLowerCase()) {
                             return (
                                 <span
                                     key={i}
@@ -431,11 +426,11 @@ function highlightSearchTerm(text: string, searchTerm: string, caseSensitive: bo
         );
     } catch (e) {
         // If regex is invalid, fall back to normal string search
-        const parts = text.split(new RegExp(`(${searchTerm})`, caseSensitive ? 'g' : 'gi'));
+        const parts = text.split(new RegExp(`(${searchTerm})`, 'gi'));
         return (
             <>
                 {parts.map((part, i) =>
-                    (caseSensitive ? part === searchTerm : part.toLowerCase() === searchTerm.toLowerCase())
+                    (part.toLowerCase() === searchTerm.toLowerCase())
                         ? (
                             <span
                                 key={i}
