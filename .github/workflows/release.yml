@@ -34,6 +34,11 @@ jobs:
         with:
           node-version: lts/*
 
+      - name: Setup Deno
+        uses: denoland/setup-deno@v1
+        with:
+          deno-version: v1.x
+
       - name: install Rust stable
         uses: dtolnay/rust-toolchain@stable
         with:
@@ -49,7 +54,7 @@ jobs:
         # You can remove the one that doesn't apply to your app to speed up the workflow a bit.
 
       - name: install frontend dependencies
-        run: yarn install # change this to npm, pnpm or bun depending on which one you use.
+        run: deno task install # changed from yarn install to use deno
 
       - uses: tauri-apps/tauri-action@v0
         env:
