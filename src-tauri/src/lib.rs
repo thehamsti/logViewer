@@ -14,35 +14,12 @@ fn filter_and_sort(filter: String, sort: String) -> String {
     )
 }
 
-async fn update(app: tauri::AppHandle) -> tauri_plugin_updater::Result<()> {
-    if let Some(update) = app.updater()?.check().await? {
-        let mut downloaded = 0;
-
-        // alternatively we could also call update.download() and update.install() separately
-        update
-            .download_and_install(
-                |chunk_length, content_length| {
-                    downloaded += chunk_length;
-                    println!("downloaded {downloaded} from {content_length:?}");
-                },
-                || {
-                    println!("download finished");
-                },
-            )
-            .await?;
-
-        println!("update installed");
-        app.restart();
-    }
-
-    Ok(())
-}
-
 #[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run(mut ctx: tauri::Context) {
     tauri::Builder::default()
         .plugin(tauri_plugin_theme::init(ctx.config_mut()))
         .plugin(tauri_plugin_store::Builder::new().build())
+        .plugin(tauri_plugin_updater::Builder::new().build())
         .setup(|app| {
             let win_builder = WebviewWindowBuilder::new(app, "main", WebviewUrl::default())
                 .title("Hamsti's Log Viewer")
@@ -55,11 +32,6 @@ pub fn run(mut ctx: tauri::Context) {
             let window = win_builder.build().unwrap();
 
             let handle = app.handle().clone();
-
-            // Setup updater
-            tauri::async_runtime::spawn(async move {
-                update(handle).await.unwrap();
-            });
 
             // Create the menu items
             let about_item = MenuItemBuilder::new("About")
@@ -103,9 +75,13 @@ pub fn run(mut ctx: tauri::Context) {
                 }
             });
 
+            // Setup updater
+            tauri::async_runtime::spawn(async move {
+                update(handle).await.unwrap()
+            });
+
             Ok(())
         })
-        // .plugin(tauri_plugin_updater::Builder::new().build())
         .plugin(tauri_plugin_fs::init())
         .plugin(tauri_plugin_dialog::init())
         .plugin(tauri_plugin_shell::init())
@@ -113,3 +89,28 @@ pub fn run(mut ctx: tauri::Context) {
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
+
+async fn update(app: tauri::AppHandle) -> tauri_plugin_updater::Result<()> {
+    if let Some(update) = app.updater()?.check().await? {
+        let mut downloaded = 0;
+
+        // alternatively we could also call update.download() and update.install() separately
+        update
+            .download_and_install(
+                |chunk_length, content_length| {
+                    downloaded += chunk_length;
+                    println!("downloaded {downloaded} from {content_length:?}");
+                },
+                || {
+                    println!("download finished");
+                },
+            )
+            .await?;
+
+        println!("update installed");
+        app.restart();
+    }
+
+    Ok(())
+}
+
