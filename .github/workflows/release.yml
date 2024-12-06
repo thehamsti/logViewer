@@ -54,7 +54,7 @@ jobs:
         # You can remove the one that doesn't apply to your app to speed up the workflow a bit.
 
       - name: install frontend dependencies
-        run: deno task install # changed from yarn install to use deno
+        run: deno install # changed from yarn install to use deno
 
       - uses: tauri-apps/tauri-action@v0
         env:
