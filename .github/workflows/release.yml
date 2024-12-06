@@ -77,8 +77,15 @@ jobs:
       
       - name: Verify Certificate
         run: |
-          CERT_INFO=$(security find-identity -v -p codesigning build.keychain | grep "Apple Development")
-          CERT_ID=$(echo "$CERT_INFO" | awk -F'"' '{print $2}')
+          echo "Available certificates:"
+          security find-identity -v -p codesigning build.keychain
+          CERT_INFO=$(security find-identity -v -p codesigning build.keychain | grep -i "Developer ID")
+          if [ -z "$CERT_INFO" ]; then
+            echo "No Developer ID certificate found"
+            exit 1
+          fi
+          CERT_ID=$(echo "$CERT_INFO" | head -n 1 | sed -n 's/.*"\(.*\)".*/\1/p')
+          echo "Found certificate ID: $CERT_ID"
           echo "CERT_ID=$CERT_ID" >> $GITHUB_ENV
           echo "Certificate imported."
 
