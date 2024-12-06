@@ -1,0 +1,10 @@
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/libtauri_runtime_wry-51bf3811a82d50ff.rmeta: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/webview.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/window/mod.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/window/macos.rs
+
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/libtauri_runtime_wry-51bf3811a82d50ff.rlib: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/webview.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/window/mod.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/window/macos.rs
+
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/tauri_runtime_wry-51bf3811a82d50ff.d: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/webview.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/window/mod.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/window/macos.rs
+
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/lib.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/webview.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/window/mod.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-runtime-wry-2.2.0/src/window/macos.rs:

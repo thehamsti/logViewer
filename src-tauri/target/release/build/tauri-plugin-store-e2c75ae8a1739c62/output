@@ -1,0 +1,6 @@
+cargo:rerun-if-changed=permissions
+cargo:PERMISSION_FILES_PATH=/Users/hamsti/fun/logViewer/src-tauri/target/release/build/tauri-plugin-store-e2c75ae8a1739c62/out/tauri-plugin-store-permission-files
+cargo:GLOBAL_API_SCRIPT_PATH=/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tauri-plugin-store-2.1.0/api-iife.js
+cargo:rustc-check-cfg=cfg(mobile)
+cargo:rustc-check-cfg=cfg(desktop)
+cargo:rustc-cfg=desktop

@@ -1,0 +1,11 @@
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/libhyper_rustls-9653e1ad6395fcd1.rmeta: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/config.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/connector.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/connector/builder.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/stream.rs
+
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/libhyper_rustls-9653e1ad6395fcd1.rlib: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/config.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/connector.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/connector/builder.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/stream.rs
+
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/hyper_rustls-9653e1ad6395fcd1.d: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/config.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/connector.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/connector/builder.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/stream.rs
+
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/lib.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/config.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/connector.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/connector/builder.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/hyper-rustls-0.27.3/src/stream.rs:

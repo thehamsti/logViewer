@@ -1,0 +1,12 @@
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/libcocoa-676231ea35fd3234.rmeta: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/appkit.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/base.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/foundation.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/quartzcore.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/macros.rs
+
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/libcocoa-676231ea35fd3234.rlib: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/appkit.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/base.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/foundation.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/quartzcore.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/macros.rs
+
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/cocoa-676231ea35fd3234.d: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/appkit.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/base.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/foundation.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/quartzcore.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/macros.rs
+
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/lib.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/appkit.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/base.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/foundation.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/quartzcore.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/cocoa-0.26.0/src/macros.rs:

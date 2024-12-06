@@ -1,0 +1,11 @@
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/libfdeflate-162cb40181476f77.rmeta: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/compress.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/decompress.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/huffman.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/tables.rs
+
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/libfdeflate-162cb40181476f77.rlib: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/compress.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/decompress.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/huffman.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/tables.rs
+
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/fdeflate-162cb40181476f77.d: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/compress.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/decompress.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/huffman.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/tables.rs
+
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/lib.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/compress.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/decompress.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/huffman.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/fdeflate-0.3.6/src/tables.rs:

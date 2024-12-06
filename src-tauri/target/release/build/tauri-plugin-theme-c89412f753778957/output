@@ -1,0 +1,5 @@
+cargo:rerun-if-changed=permissions
+cargo:PERMISSION_FILES_PATH=/Users/hamsti/fun/logViewer/src-tauri/target/release/build/tauri-plugin-theme-c89412f753778957/out/tauri-plugin-theme-permission-files
+cargo:rustc-check-cfg=cfg(mobile)
+cargo:rustc-check-cfg=cfg(desktop)
+cargo:rustc-cfg=desktop

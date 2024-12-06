@@ -1,0 +1,11 @@
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/libtokio_rustls-70a24d9a8d378c76.rmeta: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/client.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/common/mod.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/common/handshake.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/server.rs
+
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/libtokio_rustls-70a24d9a8d378c76.rlib: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/client.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/common/mod.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/common/handshake.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/server.rs
+
+/Users/hamsti/fun/logViewer/src-tauri/target/release/deps/tokio_rustls-70a24d9a8d378c76.d: /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/lib.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/client.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/common/mod.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/common/handshake.rs /Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/server.rs
+
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/lib.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/client.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/common/mod.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/common/handshake.rs:
+/Users/hamsti/.cargo/registry/src/index.crates.io-6f17d22bba15001f/tokio-rustls-0.26.1/src/server.rs:
